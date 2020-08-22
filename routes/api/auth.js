@@ -2,8 +2,11 @@ const express = require('express');
 const router = express.Router();
 
 //@route  GET api/auth
-//@desc   Test route
+//@desc   Register User
 //@access Public
-router.post('/', (req, res) => res.send('Auth Route'));
+router.post('/', (req, res) => {
+  console;
+  res.send('Auth Route');
+});
 
 module.exports = router;
